@@ -4,7 +4,7 @@ maintainer_email 'nlopez@gmail.com'
 license 'all_rights'
 description 'Installs/Configures CasperJS'
 long_description 'Installs/Configures CasperJS'
-version '0.1.1'
+version '0.1.2'
 
 depends 'phantomjs'
 depends 'ark'
