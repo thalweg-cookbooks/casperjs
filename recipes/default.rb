@@ -8,7 +8,7 @@ include_recipe 'phantomjs'
 
 ark 'casperjs' do
   url 'https://github.com/n1k0/casperjs/archive/1.1-beta3.tar.gz'
-  creates 'casperjs'
+  creates 'bin/casperjs'
   path '/usr/local/bin'
   action :cherry_pick
 end
